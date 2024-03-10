@@ -47,17 +47,11 @@
             "Techxa\\AmazonReports\\Tests\\": "tests/"
         }
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "~/Dev/filament/filament/packages/*"
-        }
-    ],
     "scripts": {
         "post-autoload-dump": "@php ./vendor/bin/testbench package:discover --ansi",
         "test": "vendor/bin/pest",
         "test-coverage": "vendor/bin/pest --coverage",
-        "build": "postcss resources/css/index.css -o resources/dist/headings.css"
+        "build": "postcss resources/css/index.css -o resources/dist/amazonreports.css"
     },
     "config": {
         "sort-packages": true,
