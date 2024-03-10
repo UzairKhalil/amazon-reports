@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Techxa\AmazonReports;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class AmazonReportsPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'laravel-amazon-reports';
     }
 
     public function register(Panel $panel): void
