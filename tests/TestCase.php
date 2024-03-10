@@ -27,7 +27,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Techxa\\AmazonReports\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
+            fn (string $modelName) => 'Techxa\\AmazonReports\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 
