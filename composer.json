@@ -4,10 +4,7 @@
     "keywords": [
         "Techxa",
         "laravel",
-        "laravel-amazon-reports",
-        "aws",
-        "amazon",
-        "sp-api"
+        "laravel-amazon-reports"
     ],
     "homepage": "https://github.com/UzairKhalil/amazon-reports",
     "support": {
